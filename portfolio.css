@@ -1,0 +1,86 @@
+body {
+  background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid brown;
+  border-radius: 2px;
+}
+h1:hover {
+  color: white;
+  background-color: brown;
+}
+img {
+  margin-right: 400px;
+  float: right;
+  border-radius: 10px;
+}
+.intro {
+  margin-top: 200px;
+}
+.name {
+  font-size: large;
+  color: brown;
+
+  margin-left: 100px;
+}
+.tittle {
+  font-size: large;
+  color: brown;
+
+  margin-left: 100px;
+}
+.skills {
+  font-size: large;
+  color: brown;
+
+  margin-left: 100px;
+}
+.additional {
+  font-size: large;
+  color: brown;
+
+  margin-left: 100px;
+}
+#about-me {
+  padding: 10px;
+  border-radius: 5px;
+  color: brown;
+  background-color: white;
+}
+#about-me:hover {
+  color: white;
+  background-color: brown;
+}
+#my-work {
+  padding: 10px;
+  border-radius: 5px;
+  color: brown;
+  background-color: white;
+}
+
+#my-work:hover {
+  color: white;
+  background-color: brown;
+}
+#my-profile {
+  padding: 10px;
+  border-radius: 5px;
+  color: brown;
+  background-color: white;
+}
+#my-profile:hover {
+  color: white;
+  background-color: brown;
+}
+#text {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#glimpse {
+  text-align: center;
+  margin-top: 30px;
+  font-size: larger;
+}

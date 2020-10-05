@@ -3,13 +3,14 @@ body {
 }
 
 h1 {
+  color: #ffa5a5;
   text-align: center;
-  border: 1px solid brown;
+  border: 1px solid #ffa5a5;
   border-radius: 2px;
 }
 h1:hover {
   color: white;
-  background-color: brown;
+  background-color: #ffa5a5;
 }
 img {
   margin-right: 400px;
@@ -21,66 +22,91 @@ img {
 }
 .name {
   font-size: large;
-  color: brown;
+  color: #ffa5a5;
 
   margin-left: 100px;
 }
 .tittle {
   font-size: large;
-  color: brown;
+  color: #ffa5a5;
 
   margin-left: 100px;
 }
 .skills {
   font-size: large;
-  color: brown;
+  color: #ffa5a5;
 
   margin-left: 100px;
 }
 .additional {
   font-size: large;
-  color: brown;
+  color: #ffa5a5;
 
   margin-left: 100px;
 }
 #about-me {
   padding: 10px;
   border-radius: 5px;
-  color: brown;
+  color: #ffa5a5;
   background-color: white;
+  border: #ffa5a5;
 }
 #about-me:hover {
   color: white;
-  background-color: brown;
+  background-color: #ffa5a5;
 }
 #my-work {
   padding: 10px;
   border-radius: 5px;
-  color: brown;
+  color: #ffa5a5;
   background-color: white;
+  border: #ffa5a5;
 }
 
 #my-work:hover {
   color: white;
-  background-color: brown;
+  background-color: #ffa5a5;
 }
 #my-profile {
   padding: 10px;
   border-radius: 5px;
-  color: brown;
+  color: #ffa5a5;
   background-color: white;
+  border: #ffa5a5;
 }
 #my-profile:hover {
   color: white;
-  background-color: brown;
+  background-color: #ffa5a5;
 }
 #text {
+  margin-top: 50px;
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
+  color: #ffa5a5;
 }
 #glimpse {
   text-align: center;
   margin-top: 30px;
   font-size: larger;
+}
+#project1 {
+  display: block;
+  margin-left: 100px;
+  margin-right: 400px;
+  background-color: #ffa5a5;
+}
+#project2 {
+  display: block;
+  margin: auto;
+  background-color: #ffa5a5;
+  margin-left: 100px;
+  margin-right: 800px;
+}
+#project3 {
+  display: block;
+  margin: auto;
+  background-color: #ffa5a5;
+  margin-left: 100px;
+  margin-right: 100px;
 }

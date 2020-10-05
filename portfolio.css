@@ -15,7 +15,6 @@ h1:hover {
 img {
   margin-right: 400px;
   float: right;
-  border-radius: 10px;
 }
 .intro {
   margin-top: 200px;
@@ -89,12 +88,13 @@ img {
   text-align: center;
   margin-top: 30px;
   font-size: larger;
+  color: #ffa5a5;
 }
+
 #project1 {
   display: block;
   margin-left: 100px;
   margin-right: 400px;
-  background-color: #ffa5a5;
 }
 #project2 {
   display: block;
@@ -109,4 +109,30 @@ img {
   background-color: #ffa5a5;
   margin-left: 100px;
   margin-right: 100px;
+}
+#project4 {
+  display: block;
+  margin-left: 100px;
+  margin-right: 600px;
+  background-color: #ffa5a5;
+}
+#text1 {
+  color: #ffa5a5;
+  margin-left: 30px;
+}
+#text2 {
+  color: #ffa5a5;
+  text-align: center;
+  margin-left: 30px;
+}
+#text3 {
+  color: #ffa5a5;
+  margin-left: 30px;
+}
+#text4 {
+  color: #ffa5a5;
+  margin-left: 30px;
+}
+h2 {
+  margin-left: 60px;
 }

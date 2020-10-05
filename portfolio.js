@@ -8,7 +8,7 @@ let aboutMeElement = document.querySelector("#about-me");
 aboutMeElement.addEventListener("click", about);
 
 function work() {
-  var str = "Here is my best work ☔️";
+  var str = "Click here to check my best work ☔️";
   var result = str.link("https://sad-babbage-b8d06f.netlify.app/");
   let text = document.querySelector("#text");
   text.innerHTML = result;
@@ -23,7 +23,7 @@ function profile() {
   var result2 = str2.link("https://linkedin.com/in/pratibha-tomar-0a220318b");
 
   let text = document.querySelector("#text");
-  text.innerHTML = result1 + " & " + result2;
+  text.innerHTML = "Find more about me on: " + result1 + " & " + result2;
 }
 
 let myProfileElement = document.querySelector("#my-profile");

@@ -1,11 +1,12 @@
 body {
   background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+  color: #ffa5a5;
 }
 
 h1 {
-  color: #ffa5a5;
+  color: rgb(44, 178, 187);
   text-align: center;
-  border: 1px solid #ffa5a5;
+  border: 1px solid rgb(44, 178, 187);
   border-radius: 2px;
 }
 h1:hover {
@@ -43,38 +44,42 @@ img {
 
   margin-left: 100px;
 }
-#about-me {
-  padding: 10px;
-  border-radius: 5px;
+#click-here {
   color: #ffa5a5;
+}
+#about-me {
+  padding: 12px 28px;
+  border-radius: 5px;
+  color: rgb(44, 178, 187);
   background-color: white;
-  border: #ffa5a5;
+  border: 2px solid #ffa5a5;
 }
 #about-me:hover {
-  color: white;
+  color: rgb(44, 178, 187);
   background-color: #ffa5a5;
 }
 #my-work {
-  padding: 10px;
+  padding: 12px 28px;
   border-radius: 5px;
-  color: #ffa5a5;
+  color: rgb(44, 178, 187);
   background-color: white;
-  border: #ffa5a5;
+  border: 2px solid #ffa5a5;
 }
 
 #my-work:hover {
-  color: white;
+  color: rgb(44, 178, 187);
   background-color: #ffa5a5;
 }
 #my-profile {
-  padding: 10px;
+  padding: 12px 28px;
   border-radius: 5px;
-  color: #ffa5a5;
+  color: rgb(44, 178, 187);
   background-color: white;
   border: #ffa5a5;
+  border: 2px solid #ffa5a5;
 }
 #my-profile:hover {
-  color: white;
+  color: rgb(44, 178, 187);
   background-color: #ffa5a5;
 }
 #text {
@@ -85,10 +90,15 @@ img {
   color: #ffa5a5;
 }
 #glimpse {
+  font-size: large;
   text-align: center;
   margin-top: 30px;
   font-size: larger;
-  color: #ffa5a5;
+  color: rgb(44, 178, 187);
+}
+#glimpse:hover {
+  color: white;
+  background-color: #ffa5a5;
 }
 
 #project1 {
@@ -135,4 +145,29 @@ img {
 }
 h2 {
   margin-left: 60px;
+}
+h3 {
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(44, 178, 187);
+  text-align: center;
+  border: #ffa5a5;
+}
+h3:hover {
+  color: white;
+  background-color: #ffa5a5;
+}
+ul {
+  text-align: left;
+  font-size: medium;
+  list-style: inside;
+  color: #ffa5a5;
+  margin-left: 500px;
+}
+#write {
+  text-align: center;
+  color: #ffa5a5;
+}
+#write {
+  color: rgb(44, 178, 187);
 }

@@ -1,7 +1,8 @@
 function about() {
   let text = document.querySelector("#text");
   text.innerHTML =
-    "Die Stelle ist für mich von großem Interesse, weil ich solide Grundkenntnisse in Programmiersprachen besitze. In der Schule habe ich zwei Jahre Java gelernt. Derzeit befinde ich mich ein Advance Frontend Developer Kurs bei SheCodes. Zurzeit entwickle ich eine Web-Applikationen und auch eine Website. Ich habe gute Kenntnisse auf HTML, CSS, JavaScript, Bootstrap und weiter lerne ich auch in der Kurz React und API. Ich habe meine Masterarbeit über das aktuelle Thema „Konsequenzanalyse der Megatrends Connected, autonomen Fahrens, Shared Services und Elektromobilität für die Automobilindustrie“ mit sehr gut Note (70%) abgeschlossen. Ich habe Fächer wie Projektmanagement und Leadership, Cross-Cultural Management und Accounting und Managerial Finance studiert. Während meines Bachelors, meine Leistung in allen Semestern beträgt im Durchschnitt 78%. Ich arbeite aktiv daran meine Deutschkenntnisse zu verbessern. Ich spreche Englisch, Deutsch und Hindi.";
+    "I am 24 years old and have completed my bachelors, master and a foreign language course. In school, I studied Java for 2 years and since that time I am interest in programming languages. I am a certificated Frontend developer. Currently, I have been enhancing my computer language skills by working on real-life projects." +
+    " Also, I am interested in hot topic like Connected, Autonomous, Shared and Electric vehicle (CASE) in Automotive industry. CASE is going to change the automotive industry like never before. I wrote my thesis on the topic: Consequence Analysis of future megatrends CASE - Closure View at Shared Services, if you are interested in my master thesis write me and i’ll share my work with you 🙂";
 }
 
 let aboutMeElement = document.querySelector("#about-me");

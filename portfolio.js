@@ -21,9 +21,12 @@ function profile() {
   var result1 = str.link("https://github.com/Pratibhatomar03");
   var str2 = "LinkedIn";
   var result2 = str2.link("https://linkedin.com/in/pratibha-tomar-0a220318b");
+  var str3 = "Xing";
+  var result3 = str3.link("https://www.xing.com/profile/Pratibha_Tomar");
 
   let text = document.querySelector("#text");
-  text.innerHTML = "Find more about me on: " + result1 + " & " + result2;
+  text.innerHTML =
+    "Find more about me on: " + result1 + " | " + result2 + " | " + result3;
 }
 
 let myProfileElement = document.querySelector("#my-profile");

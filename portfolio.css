@@ -13,13 +13,18 @@ h1:hover {
   color: white;
   background-color: #ffa5a5;
 }
-img {
-  margin-right: 400px;
+
+.picture {
+  margin-right: 200px;
   float: right;
+  border-radius: 10%;
+  margin-top: none;
+  margin-top: 100px;
 }
-.intro {
-  margin-top: 200px;
+h2 {
+  padding: 150px;
 }
+
 .name {
   font-size: large;
   color: #ffa5a5;
@@ -53,6 +58,7 @@ img {
   color: rgb(44, 178, 187);
   background-color: white;
   border: 2px solid #ffa5a5;
+  flex-wrap: none;
 }
 #about-me:hover {
   color: rgb(44, 178, 187);
@@ -90,10 +96,10 @@ img {
   color: #ffa5a5;
 }
 #glimpse {
-  font-size: large;
+  font-size: 34px;
   text-align: center;
   margin-top: 30px;
-  font-size: larger;
+
   color: rgb(44, 178, 187);
 }
 #glimpse:hover {
@@ -102,29 +108,29 @@ img {
 }
 
 #project1 {
-  display: block;
-  margin-left: 100px;
   margin-right: 400px;
+  float: right;
+  width: 400px;
 }
 #project2 {
-  display: block;
-  margin: auto;
-  background-color: #ffa5a5;
-  margin-left: 100px;
-  margin-right: 800px;
+  margin-left: 400px;
+  float: left;
+  width: 400px;
 }
 #project3 {
-  display: block;
-  margin: auto;
-  background-color: #ffa5a5;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 400px;
+  float: right;
+  width: 500px;
 }
 #project4 {
-  display: block;
-  margin-left: 100px;
-  margin-right: 600px;
-  background-color: #ffa5a5;
+  margin-left: 400px;
+  float: left;
+  width: 500px;
+}
+#project5 {
+  margin-right: 400px;
+  float: right;
+  width: 500px;
 }
 #text1 {
   color: #ffa5a5;
@@ -132,20 +138,25 @@ img {
 }
 #text2 {
   color: #ffa5a5;
-  text-align: center;
   margin-left: 30px;
+  margin-top: 100px;
 }
 #text3 {
   color: #ffa5a5;
   margin-left: 30px;
+  margin-top: 100px;
 }
 #text4 {
   color: #ffa5a5;
   margin-left: 30px;
+  margin-top: 100px;
 }
-h2 {
-  margin-left: 60px;
+#text5 {
+  color: #ffa5a5;
+  margin-left: 30px;
+  margin-top: 100px;
 }
+
 h3 {
   padding: 10px;
   border-radius: 5px;
